@@ -19,6 +19,10 @@
     <ProjectReference Include="..\..\src\Essensoft.AspNetCore.Payment.QPay\Essensoft.AspNetCore.Payment.QPay.csproj" />
     <ProjectReference Include="..\..\src\Essensoft.AspNetCore.Payment.UnionPay\Essensoft.AspNetCore.Payment.UnionPay.csproj" />
     <ProjectReference Include="..\..\src\Essensoft.AspNetCore.Payment.WeChatPay\Essensoft.AspNetCore.Payment.WeChatPay.csproj" />
+    <ProjectReference Include="..\..\src\Essensoft.AspNetCore.Payment.PayPal\Essensoft.AspNetCore.Payment.PayPal.csproj" />
   </ItemGroup>
  
+  <ItemGroup>
+    <Folder Include="Views\PayPal\" />
+  </ItemGroup>
 </Project>
